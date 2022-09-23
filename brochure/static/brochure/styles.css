@@ -2,6 +2,17 @@ form:hover{
     box-shadow: 0 0px 0px 0 dodgerblue, 0 2px 10px 0 dodgerblue;
 }
 
+button:hover{
+    box-shadow: 0 0px 0px 0 dodgerblue, 0 2px 10px 0 dodgerblue;
+}
+
+button{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
 .card{
     width: 50%;
     margin-left: 50%;
@@ -20,3 +31,7 @@ form:hover{
     display: inline-block;
 }
 
+.hero-form{
+    padding: 3%;
+    margin-top: 2%;
+}
