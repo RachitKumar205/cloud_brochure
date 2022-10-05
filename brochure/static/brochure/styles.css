@@ -1,5 +1,5 @@
 form:hover{
-    box-shadow: 0 0px 0px 0 dodgerblue, 0 2px 10px 0 dodgerblue;
+    box-shadow: 0 0px 0px 0 dodgerblue, 0 1px 5px 0 dodgerblue;
 }
 
 button:hover{
@@ -36,6 +36,19 @@ button{
 }
 
 .hero-form{
-    padding: 3%;
     margin-top: 2%;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 2%;
+    border-color: dodgerblue;
+    border-width: 0.5px;
+    border-style: solid;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.form-cen{
+    margin-left: 50%;
+    transform: translateX(-50%);
 }

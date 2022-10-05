@@ -8,24 +8,30 @@
     <p style="font-size: 32px; width: 100%; margin-top: 7%;">
       one stop solution for failures made by failures <br> (bio students change ur subjects)
     </p>
-    <form class="d-flex hero-flex" style="background-color: white; border-radius: 5px;">
+    <form class="hero-form" style="background-color: white; border-radius: 5px;">
       <table style="width: 100%;">
-        <tr><th colspan="3" class="center-text"><center><h1>Class 11</h1></center></th></tr>
+          <tr><th colspan="3" class=""><h1>Class 11</h1></th></tr>
         <tr>
-          <th><button type="button" class="btn btn-outline-primary" >Physics</button></th>
-          <th><button type="button" class="btn btn-outline-primary" >Chemistry</button></th>
-          <th><button type="button" class="btn btn-outline-primary" >Mathematics</button></th>
+          <th>
+              <a href="{% url 'class 11 physics' %}"><button type="button" class="btn btn-outline-primary" >Physics</button></a></th>
+          <th>
+              <a href="{% url 'class 11 chemistry' %}"><button type="button" class="btn btn-outline-primary" >Chemistry</button></a></th>
+          <th>
+              <a href="{% url 'class 11 maths' %}"><button type="button" class="btn btn-outline-primary" >Mathematics</button></a></th>
         </tr>  
       </table>
     </form>
 
-    <form class="hero-flex" style="background-color: white; border-radius: 5px; margin-top: 3%;">
+    <form class="hero-form" style="background-color: white; border-radius: 5px; margin-top: 3%;">
       <table style="width: 100%">
-        <tr><th colspan="3" class="center-text"><center><h1>Class 12</h1></center></th></tr>
+        <tr><th colspan="3" class="center-text"><h1>Class 12</h1></th></tr>
         <tr>
-          <th><button type="button" href="https://google.com/" class="btn btn-outline-primary" >Physics</button></th>
-          <th><button type="button" class="btn btn-outline-primary" >Chemistry</button></th>
-          <th><button type="button" class="btn btn-outline-primary" >Mathematics</button></th>
+          <th>
+              <a href="{% url 'class 12 physics' %}"> <button type="button" href="https://google.com/" class="btn btn-outline-primary" >Physics</button></a></th>
+          <th>
+              <a href="{% url 'class 12 chemistry' %}"> <button type="button" class="btn btn-outline-primary" >Chemistry</button></a></th>
+          <th>
+              <a href="{% url 'class 12 maths' %}"> <button type="button" class="btn btn-outline-primary" >Mathematics</button></a></th>
         </tr>
       </table>  
     </form>
