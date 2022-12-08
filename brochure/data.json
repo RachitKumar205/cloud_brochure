@@ -1,0 +1,66 @@
+{
+    "Chapter_2": 
+    [
+        "x = x_f - x_0",
+        "t = t_f - t_0",
+        "a  = (v_f - v_0)/(t_f - t_0)",
+        "v = (x_f - x_0)/(t_f - t_0)",
+        "x = x_0 + v*t",
+        "v = v_0 + a*t",
+        "x = u*t + 1/2 * a * t ** 2",
+        "v**2 = u**2 + 2 * a * x"
+    ],
+    "Chapter_3":
+    [
+        "H = ((u**2) * (sin(x))**2/2g",
+        "R = ((u**2) * sin(2 * x))/g"
+    ],
+    "Chapter_4":
+    [
+        "F = m * a"
+    ],
+    "Chapter_6":
+    [
+        "x = s/r",
+        "w = x/t",
+        "v = r * w",
+        "a_c = (v**2)/r",
+        "a_c = r * (w**2)",
+        "F = m * (v**2)/r"
+    ],
+    "Chapter_7":
+    [
+        "F = (G * m * M)/(r**2)"
+    ],
+    "Chapter_8":
+    [
+        "KE = 0.5 * m * (v**2)",
+        "W = 0.5 * m * (v**2 - u**2)",
+        "PE = m * g * h",
+        "PE_s = 0.5 * k * (x**2)",
+        "P = W/t"
+    ],
+    "Chapter_9":
+    [
+        "p = m * v"
+    ],
+    "Chapter_10":
+    [
+        "T = I * (a**2)",
+        "W = T * x",
+        "KE = 0.5 * I * (w**2)",
+        "L = I * w"
+
+    ],
+    "Chapter_11":
+    [
+        "D = m/V",
+        "P = F/A",
+        "P = D*g*h"
+    ],
+    "Chapter_12":
+    [
+        "Q = V/t",
+        "Q = A * v"
+    ]
+}

@@ -10,5 +10,4 @@ urlpatterns = [
     path('p-12', views.ps, name="class 12 physics"),
     path('c-12', views.cs, name="class 12 chemistry"),
     path('m-12', views.ms, name="class 12 maths")
-
 ]

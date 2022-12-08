@@ -10,7 +10,9 @@
     </center>
         <center>
     <p style="font-size: 32px; width: 100%; margin-top: 7%;">
-      Solve your physics problems!
+        {% for i in formulas %}
+            {{ i }}
+        {% endfor %}
     </p>
         </center>
     <form class="hero-form" style="background-color: white; border-radius: 5px; transform: translateX(-50%); margin-left: 50%; width: 100% ">
