@@ -34,11 +34,7 @@ def get_input(formula):
 
     return formula
 
-
-
-# Create your views here.
 phys = ""
-
 
 def index(request):
     return render(request, "brochure/index.html")
@@ -76,6 +72,9 @@ def ps(request):
 
 def pj(request):
     print(data)
+    if request.method == 'POST':
+        inp = request.POST.get('inp')
+
     return render(request, "brochure/class11/physics.html",{
         "formulas": data
     })

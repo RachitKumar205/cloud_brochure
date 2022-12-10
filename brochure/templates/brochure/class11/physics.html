@@ -1,5 +1,5 @@
 {% extends "brochure/layout.html" %}
-
+{% load markdown_extras %}
 {% block body %}
 
     <div style="width: fit-content; margin-top: 5%; margin-left: 12%; height: max-content;">
@@ -11,14 +11,15 @@
         <center>
     <p style="font-size: 32px; width: 100%; margin-top: 7%;">
         {% for i in formulas %}
-            {{ i }}
+            {{ i | markdown | safe }}
+            <br/>
         {% endfor %}
     </p>
         </center>
     <form class="hero-form" style="background-color: white; border-radius: 5px; transform: translateX(-50%); margin-left: 50%; width: 100% ">
       <table style="width: 100%;">
-          <tr><th colspan="3" class=""><h1>Enter the topic of your physics problem here</h1></th></tr>
-        <tr><th><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></th></tr>
+          <tr><th colspan="3" class=""><h1>Enter the question number</h1></th></tr>
+        <tr><th><input type="text" name="inp" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></th></tr>
         <tr>
           <th><button type="button" class="btn btn-outline-primary" >Go</button></th>
         </tr>
